@@ -20,7 +20,7 @@ export default function Funcoes() {
           <Hr />
           <CH3 title="Vantagens" />
           <CArticle>
-            <ol className="list-disc ps-5">
+            <ol className="list-disc ps-5 text-start">
                 <li>Código mais simples de organizar em programas pequenos.</li>
                 <li>Não precisa de múltiplos arquivos.</li>
             </ol>
@@ -29,7 +29,7 @@ export default function Funcoes() {
         <Container>
             <CH3 title="Desvantagens"/>
             <CArticle>
-                <ol className="list-disc ps-5">
+                <ol className="list-disc ps-5 text-start">
                     <li>Difícil de manter em projetos grandes.</li>
                     <li>Sem reaproveitamento em outros programas.</li>
                     <li>Arquivo único pode ficar confuso.</li>

@@ -5,6 +5,7 @@ import CArticle from "./components/container/CArticle";
 import CH3 from "./components/container/CH3";
 import CHeader from "./components/container/CHeader";
 import Container from "./components/container/Container";
+import Footer from "./components/Footer";
 import Hr from "./components/Hr";
 import Menu from "./components/menu/Menu";
 import LayoutPaiTema from "./components/theme/LayoutPaiTema";
@@ -24,8 +25,8 @@ export default function Inicio() {
               interativos sobre dois temas essenciais:
             </p>
             <span className="flex items-center gap-2 justify-center w-full">
-            <Buttons color="blue" title="Funções"/>
-            <Buttons title="Modularização"/>
+            <Buttons href="/funcoes" color="blue" title="Funções"/>
+            <Buttons href="/modularizacao" color="blue" title="Modularização"/>
             </span>
             <p>
               Nosso objetivo é tornar o aprendizado mais colaborativo, visual e
@@ -34,6 +35,7 @@ export default function Inicio() {
             </p>
           </CArticle>
         </Container>
+        <Footer/>
       </Body>
     </LayoutPaiTema>
   );

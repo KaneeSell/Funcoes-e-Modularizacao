@@ -86,7 +86,7 @@ export default function Menu() {
               <Link
                 key={index}
                 href={nav.href}
-                className="py-4 w-1/4 justify-center flex light:hover:bg-neutral-600 light:hover:text-white hover:bg-gray-200 hover:text-black"
+                className="py-4 w-1/4 justify-center items-center flex light:hover:bg-neutral-600 light:hover:text-white hover:bg-gray-200 hover:text-black"
               >
                 {nav.icon}
               </Link>
@@ -99,6 +99,7 @@ export default function Menu() {
 
   return (
     <div
+    id="inicio"
       className={`
         flex w-full justify-between h-15 text-white light:text-black
         `}
