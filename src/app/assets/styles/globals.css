@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+  --color-primary: #21c745;
+}
+
 html{
   scroll-behavior: smooth;
   overflow-x: hidden;
