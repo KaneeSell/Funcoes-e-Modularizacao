@@ -28,7 +28,7 @@ export default function Modularizao() {
             </ol>
           </CArticle>
         </Container>
-        <Container>
+        <Container aniDirecao={-100}>
             <CH3 title="Desvantagens"/>
             <CArticle>
                 <ol className="list-disc ps-5">

@@ -98,7 +98,7 @@ SELECT soma(2, 3) AS resultado;`,
             </ol>
           </CArticle>
         </Container>
-        <Container>
+        <Container aniDirecao={-100}>
           <CH3 title="Desvantagens" />
           <CArticle>
             <ol className="list-disc ps-5 text-start">
