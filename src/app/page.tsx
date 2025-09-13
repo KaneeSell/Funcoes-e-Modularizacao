@@ -1,3 +1,4 @@
+"use client"
 import Body from "./components/Body";
 import Buttons from "./components/Buttons";
 import CArticle from "./components/container/CArticle";

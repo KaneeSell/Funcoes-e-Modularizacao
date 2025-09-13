@@ -7,14 +7,22 @@ export default function Buttons(props: {
   onClick?: () => void;
   color?: 'blue' | 'red' | 'green' | 'sky';
 }) {
-  return (
-    <Link href={props.href || ''}>
+    const colorMap = {
+  blue: "hover:bg-blue-500",
+  red: "hover:bg-red-500",
+  green: "hover:bg-green-500",
+  sky: "hover:bg-sky-500",
+  neutral: "hover:bg-neutral-500",
+};
+const btn = (
       <button onClick={props.onClick} type={props.type || "button"}
       className={`
-      flex items-center justify-center cursor-pointer border rounded-lg px-2 hover:bg-${props.color || 'neutral'}-500
+      flex items-center justify-center cursor-pointer border rounded-lg px-2 
+      ${colorMap[props.color || "neutral"]} transition-colors duration-300
+
       `}>
         {props.title}
       </button>
-    </Link>
-  );
+)
+  return props.href ? <Link href={props.href}>{btn}</Link> : btn;
 }
