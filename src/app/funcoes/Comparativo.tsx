@@ -210,7 +210,7 @@ export default function Comparativo() {
           </div>
         </div>
         <p className="mt-2 text-gray-400 text-sm italic light:text-gray-600">
-          Execução em tempo real disponível apenas para JavaScript.
+          Execução em tempo real disponível apenas para JavaScript e C.
         </p>
       </section>
     </div>

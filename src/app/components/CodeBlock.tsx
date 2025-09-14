@@ -8,7 +8,7 @@ import "prismjs/components/prism-sql";
 
 interface CodeBlockProps {
   code: string;
-  language: "c" | "javascript" | "sql";
+  language: "c" | "javascript" | "sql" | "bash";
 }
 
 export default function CodeBlock({ code, language }: CodeBlockProps) {

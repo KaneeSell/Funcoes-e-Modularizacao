@@ -93,8 +93,8 @@ SELECT soma(2, 3) AS resultado;`,
           <CH3 title="Vantagens" />
           <CArticle>
             <ol className="list-disc ps-5 text-start">
-              <li>Código mais simples de organizar em programas pequenos.</li>
-              <li>Não precisa de múltiplos arquivos.</li>
+              <li><strong>Fácil Organização:</strong> Simples de organizar em programas pequenos.</li>
+              <li><strong>Poucos Arquivos:</strong> Não precisa de múltiplos arquivos.</li>
             </ol>
           </CArticle>
         </Container>
