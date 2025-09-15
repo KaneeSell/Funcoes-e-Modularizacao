@@ -1,7 +1,6 @@
 "use client";
 
 import Body from "../components/Body";
-import Buttons from "../components/Buttons";
 import Code from "../components/Code";
 import CArticle from "../components/container/CArticle";
 import CH3 from "../components/container/CH3";
