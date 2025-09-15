@@ -8,6 +8,7 @@ import CH3 from "../components/container/CH3";
 import CHeader from "../components/container/CHeader";
 import Container from "../components/container/Container";
 import ContainerMD from "../components/container/ContainerMD";
+import Footer from "../components/Footer";
 import Hr from "../components/Hr";
 import Menu from "../components/menu/Menu";
 import LayoutPaiTema from "../components/theme/LayoutPaiTema";
@@ -114,6 +115,7 @@ SELECT soma(2, 3) AS resultado;`,
             <Comparativo/>
           </CArticle>
         </ContainerMD>
+        <Footer btnReturn/>
       </Body>
     </LayoutPaiTema>
   );

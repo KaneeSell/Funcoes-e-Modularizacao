@@ -8,6 +8,7 @@ import CH3 from "../components/container/CH3";
 import CHeader from "../components/container/CHeader";
 import Container from "../components/container/Container";
 import ContainerMD from "../components/container/ContainerMD";
+import Footer from "../components/Footer";
 import Hr from "../components/Hr";
 import Menu from "../components/menu/Menu";
 import LayoutPaiTema from "../components/theme/LayoutPaiTema";
@@ -125,11 +126,13 @@ export default function Modularizao() {
                 nativa, cada módulo organiza parte do sistema.
               </li>
               <li>
-                <strong>Modularizar ≠ apenas usar funções:</strong> É organizar todo o sistema em partes independentes.
+                <strong>Modularizar ≠ apenas usar funções:</strong> É organizar
+                todo o sistema em partes independentes.
               </li>
             </ol>
           </CArticle>
         </Container>
+        <Footer btnReturn/>
       </Body>
     </LayoutPaiTema>
   );
