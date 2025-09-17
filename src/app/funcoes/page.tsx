@@ -5,6 +5,7 @@ import CodeBlock from "../components/CodeBlock";
 import CArticle from "../components/container/CArticle";
 import CH3 from "../components/container/CH3";
 import CHeader from "../components/container/CHeader";
+import Container from "../components/container/Container";
 import ContainerDiv from "../components/container/ContainerDiv";
 import ContainerMD from "../components/container/ContainerMD";
 import ContainerSM from "../components/container/ContainerSM";
@@ -22,7 +23,7 @@ export default function Funcoes() {
     <LayoutPaiTema>
       <Menu />
       <Body>
-        <ContainerDiv aniDirecao={100}>
+        <Container aniDirecao={100}>
           <CHeader title="Funções" />
           <Hr />
           <CH3 title="O que é?" />
@@ -60,7 +61,7 @@ export default function Funcoes() {
               </li>
             </ol>
           </CArticle>
-        </ContainerDiv>
+        </Container>
         <ContainerDiv>
           <ContainerSM>
             <CHeader title="Funções" />

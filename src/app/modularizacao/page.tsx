@@ -23,7 +23,7 @@ export default function Modularizao() {
         <Container aniDirecao={100}>
           <CHeader title="Modularização" />
           <Hr />
-          <CH3 title="O que é Modularização" />
+          <CH3 title="O que é?" />
           <CArticle>
             <ol className="list-disc ps-5 text-start">
               <li>
