@@ -20,7 +20,7 @@ export default function Footer(props: {
     btnReturn: props.btnReturn || false,
     more: {
       title: props.more?.title || "Equipe",
-      description: props.more?.description || "Daniel, Fabricio, Italo, Samuel",
+      description: props.more?.description || "Daniel, Fabricio, Italo, Samuel, Felipe",
     },
     splitChar: props.more?.splitChar || true,
   };
